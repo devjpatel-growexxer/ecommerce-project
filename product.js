@@ -6,7 +6,12 @@ class Product{
     }
 
     getPrice(){
+<<<<<<< HEAD
         return this.price - (this.price * this.discount / 100) ;
+=======
+        const tax = 0.18 //18% tax
+        return this.price + (this.price * tax);
+>>>>>>> feature-tax-calculation
     }
 }
 
